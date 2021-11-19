@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    font-size: 1.5em;
+}
+
+#map {
+    height: 50vh;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+#dog {
+    height: auto;
+    width: 30vw;
+    margin: 0 auto;
+}
+
+#quote {
+    padding: 1.5em;
+    line-height: 1.7;
+    width: 80vw;
+    height: auto;
+    font-size: 1.5em;
+    font-style: italic;
+    background-color: lightblue;
+    color: rgb(77, 46, 97);
+    margin: 2em auto;
+}
+
+#spacer {
+    height: 5vw; 
+}
+
+.container {
+    text-align: center;
+}
+
+.reloadButton {
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 1em;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.dogPic {
+    width: 300px;
+    height: auto;
+}
+
+img {
+    margin: 2em;
+}
+
+
+header {
+    background-color: rgb(181, 181, 224);
+    display: flex;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li {
+    margin: 0 2em;
+}
+
+footer {
+    background-color: rgb(181, 181, 224);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
